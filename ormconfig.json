@@ -1,0 +1,17 @@
+{
+  "type": "mariadb",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "gatekeeper",
+  "charset": "utf8mb4",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/entity/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
